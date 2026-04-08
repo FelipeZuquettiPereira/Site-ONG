@@ -10,11 +10,10 @@
 <body>
    <div class="centro">
 
-  <h1>Somos um centro de doações para pinguins carentes!</h1>
+  <h2>Somos um centro de doações para pinguins carentes!</h2>
 
-  <h2>Coloque todas as informações sobre o seu cartão de crédito para nos ajudar:</h2>
 
-  <form action="">
+  <form id="AdocaoPinguins">
     <label for="nome">Nome:</label>
     <input type="text">
 
@@ -73,7 +72,60 @@
     <br>
     <br>
 
+    <label for="Contato">
+        Telefone:
+        <input type="number" id="Contato">
+    </label>
 
+    <br>
+    <br>
+
+    <label for="Cidade">
+        Cidade:
+        <input type="text">
+    </label>
+
+    <br>
+    <br>
+
+    <label for="Moradia">
+        Qual o tipo da sua moradia?
+        <input type="radio" value="casa" name="Moradia">casa
+        <input type="radio" value="apartamento" name="Moradia">apartamento
+    </label>
+
+    <br>
+    <br>
+
+    <label for="Quintal">
+        Você tem quintal?
+        <input type="radio" value="comquintal" name="Quintal">sim
+        <input type="radio" value="semquintal" name="Quintal">não
+    </label>
+
+    <br>
+    <br>
+
+    <label for="HorasSozinho">
+        Quanto tempo o pet passará sozinho por dia?(em horas) <br>
+        <input type="number">
+    </label>
+
+    <br>
+    <br>
+
+    <label for="Motivo">
+        Motivo da adoção: <br>
+        <textarea name="Motivo" id="motivoAdoção"></textarea>
+    </label>
+
+    <br>
+    <br>
+
+    <label for="Termos">
+        Termos
+        <input type="checkbox" name="Termos" id="Termos">
+    </label>
 
   </form>
 

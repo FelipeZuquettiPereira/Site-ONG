@@ -12,3 +12,12 @@ body{
     color: white;
 
 }
+
+input{
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
