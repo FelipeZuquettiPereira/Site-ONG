@@ -18,9 +18,11 @@ document.getElementById(AdocaoPinguins).addEventListener("submit", function(e){
     if(!email.includes("@")) return alert("Email Inválido");
     if(idade < 18) return alert("Você não tem idade para adotar um pinguin");
     if(cpf.length < 11) return alert("cpf inválido");
+    if(contato.length < 8) return alert ("Numero inválido");
+    if(Quintal = "semquintal" && Moradia = "casa") return alert("Não pode meu.");
+    if](tempo_sozinho > 5) return alert 
 
-    document.getElementById("resultado").innerHTML = "Dados enviados com sucesso meu nobre"
+    document.getElementById("resultado").innerHTML = "Dados enviados com sucesso meu nobre";
 
 
-    console.log("resultado");
 });
